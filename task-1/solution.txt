@@ -1,0 +1,11 @@
+1- mkdir malak
+2- touch malak/one.txt malak/two.txt malak/three.txt malak/four.txt
+3- mkdir malak/BAD touch malak/BAD/bad.txt
+4-mv malak/one.txt ~/Downloads/
+5- cd ~/Downloads cp one.txt copy.txt
+6-cd ~/malak
+7-
+8-echo "1-hello OSC 2-hello OSC 3-hello OSC 4-hello OSC 5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" > three.txt
+9-mv three.txt hello.txt
+10-rm four.txt
+11-rm -r BAD
