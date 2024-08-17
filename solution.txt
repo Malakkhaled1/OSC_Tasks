@@ -1,0 +1,13 @@
+1- git config --global user.name malakkhaled1 git config --global user.email malakelhady76@gmail.com
+2- cd /home/malak clone https://github.com/Malakkhaled1/OSC_Tasks.git 
+3-cd OSC_Tasks mkdir task-2 
+4-cd task-2 touch greeting.txt
+5- echo "hello world" > greeting.txt
+6-  git init git add . git commit -m "Added greeting"
+7-git checkout -b intro
+8-echo "I love Git" >> greeting.txt
+9-git add . git commit -m "Added I love Git"
+10-git checkout master git merge intro
+11-git tag -a  v1
+13- touch solution.txt nano solution.txt git add solution.txt git commit -m "added file" git push
+ 
